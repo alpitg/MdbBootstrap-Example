@@ -1,0 +1,77 @@
+<hr>
+
+<div class="row" style="max-width: 60rem; margin: auto;">
+  <div class="col-md-3"></div>
+
+  <div class="col-md-6">
+    <div class="card animated slideInRight">
+      <!--Title-->
+      <div class="text-center" style="color: white; background-color: #2BBBAD !important; padding: 10px; ">
+        <h4 class="card-title" style="margin-top: 10px;">Company Notify</h4>
+      </div>
+      <!--Title-->
+      <!--Card content-->
+      <div class="card-body">
+
+        <br>
+        <!--company notify Form-->
+        <form>
+
+          <div class="md-form">
+            <i class="fa fa-quote-left prefix grey-text"></i>
+            <input type="text" id="form3" class="form-control" mdbActive>
+            <label for="form3">Subject</label>
+          </div>
+          <div class="md-form">
+            <i class="fa fa-user prefix grey-text"></i>
+            <input type="text" id="form3" class="form-control" mdbActive>
+            <label for="form3">Comany Name</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fa fa-calendar prefix grey-text"></i>
+
+            <div class="form-group">
+              <div class="input-group">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input style="border-top: 0px; border-left: 0px;" mdbActive class="form-control" placeholder="Event Date" name="dp" [(ngModel)]="model" ngbDatepicker #d="ngbDatepicker">
+                <button class="input-group-addon" (click)="d.toggle()" type="button">
+                   <i class="fa fa-calendar" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="md-form">
+            <i class="fa fa-user prefix grey-text"></i>
+            <input type="text" id="form3" class="form-control" mdbActive>
+            <label for="form3">Location</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fa fa-tag prefix grey-text"></i>
+            <input type="text" id="form32" length="10" class="form-control" mdbActive>
+            <label for="form34">Send To</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fa fa-pencil prefix grey-text"></i>
+            <textarea type="text" id="form8" class="md-textarea" style="height: 100px" mdbActive></textarea>
+            <label for="form8">Message</label>
+          </div>
+
+          <div class="text-center">
+            <button class="btn bg-default waves-light" mdbRippleRadius>Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+          </div>
+
+        </form>
+        <!--company notify Form-->
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="col-md-3"></div>
+
+</div>

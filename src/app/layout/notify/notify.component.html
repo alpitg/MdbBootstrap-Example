@@ -1,0 +1,38 @@
+<!--<div class="mt-5 pt-5">
+  <div class="notifyCover1 text-center">
+    <img src="../../assets/images/notify1.jpg" alt="cover1">
+  </div>
+</div>-->
+
+
+<!-- Main -->
+<main>
+  <div class="car container" style="height:1300px;">
+    <div class="row mt-5 pt-5">
+      <div class="col">
+
+        <div class="card" style="height:1000px;">
+          <!--Title-->
+          <div style="color: white; background-color: #2BBBAD !important; padding: 10px; ">
+            <h4 class="card-title" style="margin-top: 10px;">Notification's</h4>
+          </div>
+          <!--Title-->
+
+          <!--Card content-->
+          <div class="card-body">
+            <div class="text-center">
+              <a href="#" class="btn waves-light bg-default" [routerLink]="['./regular-notify']" mdbRippleRadius>Regular Notify</a>
+              <a href="#" class="btn waves-light bg-default" [routerLink]="['./company-notify']" mdbRippleRadius>Company Notify</a>
+            </div>
+
+            <router-outlet> </router-outlet>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</main>
+<!-- /.Main -->
