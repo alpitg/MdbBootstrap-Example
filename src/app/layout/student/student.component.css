@@ -1,19 +1,9 @@
-/*.card :hover{
-    margin-bottom: 20px; 
-    background-color: floralwhite;
+.card-body{
+    border-left: 5px ; 
+    border-left-style: solid;  
+    border-left-color: #2BBBAD;    
 }
 
-.card :hover{
-    color: white;
-    background-color: #2BBBAD;
+.card{
+    font-family: 'Comfortaa';
 }
-
-.strip :hover{
-    background-color: #2BBBAD;
-    padding: 20px;
-}
-
-.strip :hover{
-    color: white;
-    
-}*/
